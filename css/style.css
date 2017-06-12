@@ -1,0 +1,125 @@
+nav.navbar {
+    margin-bottom: 0 !important;
+}
+
+#lead {
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    max-height: 1080px;
+    background: url('../img/main-image.jpeg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+#lead-content {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#lead-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(52, 152, 219, 0.8);
+    z-index: 1;
+}
+
+#lead-content h1 {
+    font-size: 5em;
+    font-weight: bold;
+    color: #fff;
+    line-height: 0.9em;
+}
+
+#lead-content h2 {
+    font-size: 2.25em;
+    color: #34495e;
+    line-height: 0.9em;
+    margin-top: 5px;
+}
+
+#resume {
+    background: transparent;
+    display: inline-block;
+    color: #fff;
+    padding: 15px 25px;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    -webkit-transition: .5s ease all;
+    transition: .5s ease all;
+    margin-top: 10px;
+}
+
+#resume:hover {
+    background: #fff;
+    color: #3498db;
+}
+
+@media only screen and (max-width: 992px) {
+
+    #lead {
+        height: auto;
+        min-height: auto;
+        padding: 150px 15px;
+    }
+
+    #lead-content {
+        position: relative;
+        -webkit-transform: none;
+        transform: none;
+        left: auto;
+        top: auto;
+    }
+
+    #lead-content h1 {
+        font-size: 4em;
+    }
+
+    #lead-content h2 {
+        font-size: 2em;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    #lead-content h1 {
+        font-size: 3em;
+    }
+
+    #lead-content h2 {
+        font-size: 1.5em;
+    }
+
+    #resume {
+        padding: 10px 20px;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    #lead-content h1 {
+        font-size: 2em;
+    }
+
+    #lead-content h2 {
+        font-size: 1.25em;
+    }
+
+    #resume {
+        padding: 5px 10px;
+    }
+
+}
