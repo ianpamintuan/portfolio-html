@@ -2,6 +2,10 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.white {
+    color: #fff;
+}
+
 nav.navbar {
     margin-bottom: 0 !important;
 }
@@ -41,7 +45,6 @@ nav.navbar {
 #lead-content h1 {
     font-size: 5em;
     font-weight: bold;
-    color: #fff;
     line-height: 0.9em;
 }
 
@@ -121,14 +124,50 @@ section div#skills ul#skills-list {
 section div#skills ul#skills-list li {
     list-style: none;
     display: inline-block;
-    margin: 0 5px;
-    
+    margin: 0 5px;  
 }
 
-.label {
+section div#skills .label {
     border-radius: 0;
     padding: 0.5em;
     background-color: #3498db;
+}
+
+section div#contact {
+    background-color: #3498db;
+    padding: 30px 15px;
+}
+
+section div#contact .contact-block {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+section div#contact h2 {
+    margin-bottom: 40px;
+}
+
+section div#contact textarea {
+    height: 125px;
+    resize: none;
+}
+
+section div#contact textarea, section div#contact input[type="submit"] {
+    margin-top: 10px;
+}
+
+section div#contact input[type="submit"] {
+    border: 0;
+    color: #3498db;
+    font-weight: bold;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    -moz-transition: .5s ease all;
+    -webkit-transition: .5s ease all;
+    transition: .5s ease all;
+}
+
+section div#contact input[type="submit"]:hover {
+    box-shadow: 0 5px 5px rgba(0,0,0,0.12), 0 5px 5px rgba(0,0,0,0.24);
 }
 
 @media only screen and (max-width: 992px) {

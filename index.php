@@ -41,7 +41,7 @@
     <section id="home">
         <div id="lead">
             <div id="lead-content">
-                <h1>MARK IAN PAMINTUAN</h1>
+                <h1 class="white">MARK IAN PAMINTUAN</h1>
                 <h2>Web & Desktop Developer</h2>
                 <a href="#" class="btn btn-default" id="resume">Download Resume</a>
             </div>
@@ -66,7 +66,7 @@
     <section>
         <div id="projects">
             <header>
-                <h2 class="text-center">Projects</h2>
+                <h2 class="text-center white">Projects</h2>
             </header>
             <div class="projects-block">
                 <div class="row">
@@ -131,6 +131,24 @@
                     <li><h3><span class="label label-default">Adobe Flex Builder</span></h3></li>
                     <li><h3><span class="label label-default">Adobe Photoshop</span></h3></li>
                 </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="contact">
+            <header>
+                <h2 class="text-center white">Contact Me</h2>
+            </header>
+            <div class="contact-block">
+                <div class="form-container">
+                    <form method="post" action="https://formspree.io/ianmayfire@gmail.com">
+                        <input type="hidden" name="subject" id="subject" value="Contact message from personal portfolio">
+                        <input type="email" name="email" id="email" placeholder="Your email" class="form-control" required>
+                        <textarea name="message" id="message" placeholder="Your message" class="form-control" required></textarea>
+                        <input type="submit" name="submit" id="submit" value="Send" class="form-control">
+                    </form>
+                </div>
             </div>
         </div>
     </section>
