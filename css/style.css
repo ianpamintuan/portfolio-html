@@ -143,6 +143,7 @@ section div#contact {
 section div#contact .contact-block {
     max-width: 500px;
     margin: 0 auto;
+    padding-bottom: 25px;
 }
 
 section div#contact h2 {
@@ -158,6 +159,15 @@ section div#contact textarea, section div#contact input[type="submit"] {
     margin-top: 10px;
 }
 
+section div#contact input[type="email"]:focus, section div#contact textarea:focus {
+  border-color: #2c3e50;
+  border-width: 2px;
+  outline: 0;
+}
+section div#contact input[type="text"]::-moz-selection {
+  background: #ffb7b7 !important; /* Gecko Browsers */
+}
+
 section div#contact input[type="submit"] {
     border: 0;
     color: #3498db;
@@ -170,6 +180,49 @@ section div#contact input[type="submit"] {
 
 section div#contact input[type="submit"]:hover {
     box-shadow: 0 5px 5px rgba(0,0,0,0.12), 0 5px 5px rgba(0,0,0,0.24);
+}
+
+footer div#footer {
+    padding: 20px 0;
+}
+
+footer div#footer .footer-block {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+footer div#footer .copyright p {
+    margin: 0 0 25px;
+    padding-top: 10px;
+}
+
+footer div#footer .social {
+    padding-bottom: 10px;
+}
+
+footer div#social ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+footer div#social ul li {
+    list-style-type: none;
+    float: left;
+}
+
+footer div#social li .fa {
+    font-size: 20px;
+} 
+
+footer div#social a {
+    display: block;
+    padding: 10px;
+}
+
+footer div#social a:hover {
+    color:#2c3e50;
 }
 
 @media only screen and (max-width: 992px) {
@@ -215,6 +268,21 @@ section div#contact input[type="submit"]:hover {
 
     #resume {
         padding: 10px 20px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    footer div#footer {
+        text-align: center;
+    }
+
+    footer div#social ul {
+        float: none;
+        width: 180px;
+        margin: 0 auto;
+        padding-bottom: 30px;
     }
 
 }

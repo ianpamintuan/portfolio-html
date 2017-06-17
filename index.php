@@ -153,6 +153,27 @@
         </div>
     </section>
 
+    <footer>
+        <div id="footer">
+            <div class="footer-block">
+                <div class="col-sm-6 copyright">
+                    <p>Copyright &copy 2017 <a href="https://github.com/ianpamintuan">Mark Ian Pamintuan</a></p> 
+                </div>
+                <div class="col-sm-6 social">
+                    <div id="social">
+                        <ul>
+                            <li><a href="https://www.facebook.com/markian.pamintuan" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://github.com/ianpamintuan" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/mark-ian-pamintuan-10320511b" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/ianstein_" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="http://stackoverflow.com/users/5804198/mark" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
