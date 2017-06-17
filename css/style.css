@@ -17,6 +17,8 @@ nav.navbar {
     max-height: 1080px;
     background: url('../img/main-image.jpeg');
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     overflow: hidden;
 }
 
