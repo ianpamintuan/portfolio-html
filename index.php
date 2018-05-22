@@ -23,7 +23,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.php">
-                    Mark Ian Pamintuan
+                    <strong>Mark Ian Pamintuan</strong>
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="mainNavbar">
@@ -162,11 +162,9 @@
                 <div class="col-sm-6 social">
                     <div id="social">
                         <ul>
-                            <li><a href="https://www.facebook.com/markian.pamintuan" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="mailto:ianmayfire@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
                             <li><a href="https://github.com/ianpamintuan" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.linkedin.com/in/mark-ian-pamintuan-10320511b" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.instagram.com/ianstein_" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                            <li><a href="http://stackoverflow.com/users/5804198/mark" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/mark-ian-pamintuan" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>
