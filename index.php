@@ -69,40 +69,47 @@
                 <h2 class="text-center white">Projects</h2>
             </header>
             <div class="projects-block">
+            
                 <div class="row">
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail">
-                        <img src="img/main-image.jpeg" alt="image">
+                        <img src="img/projects/thesis/VB.Net Tutorial with Code Snippet Generator.png" alt="image">
                         <div class="caption">
-                            <h3>Project Name</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.</p>
-                            <p><a href="#" class="btn btn-primary" role="button">Details</a></p>
+                            <h3>College Thesis</h3>
+                            <p>My college thesis was a <strong>LAN-based Visual Basic.Net Tutorial with Code Snippet Generator</strong> which was a desktop application. The features of the system are adding of students, lectures, tutorial videos, snippets(where you can click a button then it will auto-paste it to the Visual Studio IDE), logs and admin notifications.</p>
+                            <div class="col-sm-12 col-md-12 text-center">
+                                <a href="https://github.com/ianpamintuan/thesis" class="btn btn-primary" role="button" target="_blank">View Project</a>
+                            </div>
                         </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail">
-                        <img src="img/main-image.jpeg" alt="image">
+                        <img src="img/projects/ama-tabulation-system/AMA Tabulation System.png" alt="image">
                         <div class="caption">
-                            <h3>Project Name</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.</p>
-                            <p><a href="#" class="btn btn-primary" role="button">Details</a></p>
+                            <h3>AMA Tabulation System</h3>
+                            <p><strong>AMA Tabulation System</strong> is a LAN-based desktop application for AMA Computer College San Fernando. The features of the system are adding of users(admin, judge, scorer), sports, players, teams, matches and events. The main use of the system is the tabulation of Pageant contests and Intramurals sports scoring.</p>
+                            <div class="col-sm-12 col-md-12 text-center">
+                                <a href="https://github.com/ianpamintuan/ama-tabulation-system" class="btn btn-primary" role="button" target="_blank">View Project</a>
+                            </div>
                         </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail">
-                        <img src="img/main-image.jpeg" alt="image">
+                        <img src="img/projects/mobile-app/Webp.net-resizeimage.png" alt="image">
                         <div class="caption">
-                            <h3>Project Name</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.</p>
-                            <p><a href="#" class="btn btn-primary" role="button">Details</a></p>
+                            <h3>Name the Flag</h3>
+                            <p><strong>Name the Flag</strong> is an Android game which was built using Adobe Flex. The game concept is to choose the correct choice for each flag displayed on each question. It uses SQLite database for saving high scores.</p><br><br>
+                            <div class="col-sm-12 col-md-12 text-center">
+                                <a href="https://github.com/ianpamintuan/name-the-flag" class="btn btn-primary" role="button" target="_blank">View Project</a>
+                            </div>
                         </div>
                         </div>
                     </div>
                 </div>
+
             </div>
-            
         </div>
     </section>
 

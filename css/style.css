@@ -108,6 +108,15 @@ section div#projects .projects-block .caption h3 {
     text-align: center;
 }
 
+section div#projects .projects-block .thumbnail {
+    max-height: 50em;
+    padding-bottom: 2.5em;
+}
+
+section div#projects .projects-block img {
+    width: 100%;
+}
+
 section div#skills h2 {
     margin-bottom: 30px;
 }
